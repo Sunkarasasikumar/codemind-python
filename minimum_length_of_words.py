@@ -1,3 +1,7 @@
 n=input()
 l=n.split()
-print(len(l[0]))
+mini=9999999
+for i in l:
+    if mini>len(i):
+        mini=len(i)
+print(mini)
